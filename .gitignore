@@ -1,0 +1,9 @@
+// Ignoring node_modules
+// Create a file at the root of your project called .gitignore
+// In this file, write one line that says node_modules, and save the file
+// Add and commit the .gitignore to Git
+
+
+
+
+node_modules
