@@ -34,13 +34,16 @@ prompt.get('synonymsofword', function(err, answers) {
             }
             else {
                  if (res.noun){
-                    console.log(res.noun.syn);
+                    console.log("Nouns :" + emoji.get('smile'));
+                    console.log(colors.green(res.noun.syn));
                 }
                 if (res.verb){
-                    console.log(res.verb.syn);
+                    console.log("Verbs :" + emoji.get('smile'));
+                    console.log(colors.yellow(res.verb.syn));
                 }
                 if (res.adjective){
-                    console.log(res.adjective.syn);
+                    console.log("Adjectives :" + emoji.get('smile'));
+                    console.log(colors.blue(res.adjective.syn));
                 }
             }
         });
